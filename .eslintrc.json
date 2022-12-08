@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@gokarma/karma-social-typescript"
+  ],
+  "root": true,
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": [".eslintrc.js"],
+  "rules": {
+    "@typescript-eslint/no-shadow": "off"
+  }
+}
